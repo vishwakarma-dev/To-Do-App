@@ -4,7 +4,7 @@ A beautifully styled, mobile-responsive To-Do App built using **Next.js**, **Typ
 
 <img width="805" height="945" alt="To-Do-App" src="https://github.com/user-attachments/assets/41f471dc-3904-43f4-a27d-7b65d3d60b00" />
 
-[Live Preview](https://github.com/vishwakarma-dev)  
+[Live Preview](https://to-do-app-5fsw.vercel.app/)  
 
 ---
 
