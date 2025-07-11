@@ -1,6 +1,10 @@
-# Advanced Responsive To-Do App
+# Responsive To-Do App
 
 A beautifully styled, mobile-responsive To-Do App built using **Next.js**, **TypeScript**, and **Material UI (MUI)**. Features include persistent storage, task filtering, task editing with inline and menu-based controls (mobile), responsive layout, gradient UI, and a custom scrollbar.
+
+<img width="805" height="945" alt="To-Do-App" src="https://github.com/user-attachments/assets/41f471dc-3904-43f4-a27d-7b65d3d60b00" />
+
+[Live Preview](https://github.com/vishwakarma-dev)  
 
 ---
 
@@ -86,4 +90,4 @@ Open your browser and navigate to: [http://localhost:3000](http://localhost:3000
 
 **Your Name**  
 GitHub: [@vishwakarma-dev](https://github.com/vishwakarma-dev)  
-Project Repo: [QR-Code-Generator](https://github.com/vishwakarma-dev/To-Do-App.git)
+Project Repo: [To-Do-App](https://github.com/vishwakarma-dev/To-Do-App.git)
