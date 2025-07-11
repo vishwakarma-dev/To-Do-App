@@ -1,40 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Advanced Responsive To-Do App
 
-## Getting Started
+A beautifully styled, mobile-responsive To-Do App built using **Next.js**, **TypeScript**, and **Material UI (MUI)**. Features include persistent storage, task filtering, task editing with inline and menu-based controls (mobile), responsive layout, gradient UI, and a custom scrollbar.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🔧 Features
+
+- ✅ Add, Edit, Delete, and Toggle tasks
+- ✅ Task filtering: All / Active / Completed
+- ✅ LocalStorage-based persistence
+- ✅ Snackbar alerts for user feedback
+- ✅ Responsive design (desktop and mobile)
+- ✅ Truncated long tasks on mobile with full tooltip
+- ✅ 3-dot menu for Edit/Delete on mobile view
+- ✅ Custom styled scrollable task list
+- ✅ Gradient background & blurred paper layout
+
+---
+
+## 📁 Project Structure
+
+```
+/components
+  └── TodoItem.tsx    // Reusable to-do item component
+/pages
+  └── index.tsx       // Main home page
+/styles
+  └── globals.css     // Custom global styles (scrollbar, etc.)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## 📦 Technologies
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Material UI](https://mui.com/)
+- [LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🖥️ Desktop Experience
 
-## Learn More
+- Task list with edit and delete buttons inline.
+- Full task text displayed.
 
-To learn more about Next.js, take a look at the following resources:
+## 📱 Mobile Experience
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- Tasks show only first 50 characters with full tooltip.
+- Edit/Delete actions shown via 3-dot vertical menu (`MoreVertIcon`).
+- Optimized layout and scrollable task list.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📜 Custom Scrollbar (Add in `globals.css`)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```css
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+/* Scrollbar Styling */
+* { 
+  scrollbar-width: thin;
+  scrollbar-color: #9c27b0 #f3e5f5;
+}
+
+```
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Run in development
+npm run dev
+```
+
+Open your browser and navigate to: [http://localhost:3000](http://localhost:3000)
+
+---
+
+
+## 👨‍💻 Author
+
+**Your Name**  
+GitHub: [@vishwakarma-dev](https://github.com/vishwakarma-dev)  
+Project Repo: [QR-Code-Generator](https://github.com/vishwakarma-dev/To-Do-App.git)
